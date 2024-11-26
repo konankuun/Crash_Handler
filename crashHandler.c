@@ -41,6 +41,7 @@ int main(){
     while(1){
         if(!isProcessRunning(PROCESS_NAME)){
             printf("⚠️ Roblox crashed. Restarting...");
+            Sleep(5);
             startRoblox();
         }
     }
